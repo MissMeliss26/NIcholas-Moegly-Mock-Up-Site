@@ -94,7 +94,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html{
+    box-sizing: border-box;
+    background-color: black;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+  background-color: white;
+  margin-top: 0;
+  margin-left: 130px;
+  margin-right:130px;
+}
+.page-header{
+  background-color: white;
+  margin:0 130px 105px 130px;
+  z-index: -10;
+}
+.nav-bar{
+ background-color: hsla(0,100%,100%, 0.88);
+ color: black;
+ padding: 1em;
+ position: fixed;
+ max-width:100%;
+left:130px;
+right:130px;
+ top:0;
+ z-index: 1;
+}
+.nav-bar ul{
+  list-style-type: none;
+  padding:.625em;
+}
+.nav-bar li{
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: .625em;
+}
+.banner img{
+  max-width:100%;
+}
 
 
 
