@@ -98,7 +98,7 @@ html{
     box-sizing: border-box;
     background-color: black;
   }
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 body{
@@ -106,10 +106,11 @@ body{
   margin-top: 0;
   margin-left: 130px;
   margin-right:130px;
+  font-family: 'Average', serif;
 }
 .page-header{
   background-color: white;
-  margin:0 130px 105px 130px;
+  margin:0 130px 100px 130px;
   z-index: -10;
 }
 .nav-bar{
@@ -125,16 +126,92 @@ right:130px;
 }
 .nav-bar ul{
   list-style-type: none;
-  padding:.625em;
+  padding:.625em 350px;
 }
 .nav-bar li{
   font-weight: bold;
   font-size: 14px;
-  display: inline-block;
-  padding-right: .625em;
+  display:inline;
+  padding-right: 1em;
+  font-family: 'Lato', sans-serif;
 }
 .banner img{
   max-width:100%;
+}
+.main-content{
+  background-color:#997300;
+  margin-top:-10px;
+  color: white;
+  text-align: center;
+  padding:10px 300px 50px 300px;
+  font-family: 'Lato', sans-serif;
+}
+.recent-projects{
+  padding:50px;
+  margin-top: -30px;
+}
+.hub ul{
+  list-style-type: none;
+  padding:.625em;
+  clear:right;
+}
+.hub li{
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: .625em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-family: 'Lato', sans-serif;
+}
+
+.hub{
+  border: 1px solid black;
+  width:50%;
+  float:left;
+  clear:left;
+  overflow: auto;
+}
+.hub img{
+  width:100%;
+}
+}
+.progress ul{
+  list-style-type: none;
+  padding:.625em;
+  clear:right;
+}
+.progress li{
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: .625em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-family: 'Lato', sans-serif;
+}
+.progress{
+  float:right;
+  overflow: auto;
+  border: 1px solid black;
+  clear:right;
+  width:50%;
+}
+.progress img{
+  width:50%;
+}
+.email{
+ clear:both;
+ background-color:#997300;
+ color: white;
+ text-align: center;
+ padding:10px 300px 50px 300px;
+ font-family: 'Lato', sans-serif;
+}
+
+
+.footer{
+
 }
 
 
