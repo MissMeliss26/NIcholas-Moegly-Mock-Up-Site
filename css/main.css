@@ -109,14 +109,14 @@ body{
   font-family: 'Average', serif;
 }
 .page-header{
-  background-color: white;
+  background-color: #fff;
   margin:0 130px 100px 130px;
   z-index: -10;
 }
 .nav-bar{
  background-color: hsla(0,100%,100%, 0.88);
  color: black;
- padding: 1em;
+ padding: .4em;
  position: fixed;
  max-width:100%;
 left:130px;
@@ -144,7 +144,17 @@ right:130px;
   color: white;
   text-align: center;
   padding:10px 300px 50px 300px;
+  max-width: 100%;
+  overflow:hidden;
+
+}
+.main-content h1{
+  font-size: 20px;
+  word-spacing: 11px;
+  margin-top: 50px;
+  margin-bottom:40px;
   font-family: 'Lato', sans-serif;
+
 }
 .recent-projects{
   padding:50px;
@@ -179,7 +189,7 @@ right:130px;
 .progress ul{
   list-style-type: none;
   padding:.625em;
-  clear:right;
+  clear:both;
 }
 .progress li{
   font-weight: bold;
@@ -189,6 +199,7 @@ right:130px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   font-family: 'Lato', sans-serif;
+  clear:both;
 }
 .progress{
   float:right;
@@ -197,8 +208,11 @@ right:130px;
   clear:right;
   width:50%;
 }
-.progress img{
-  width:50%;
+.progress article{
+margin-top: 55px;
+float:left;
+width:20%;
+
 }
 .email{
  clear:both;
@@ -208,10 +222,45 @@ right:130px;
  padding:10px 300px 50px 300px;
  font-family: 'Lato', sans-serif;
 }
+.instagram ul{
+  list-style-type: none;
+  padding:.625em;
+  clear:right;
 
+}
+.instagram li{
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  padding-right: .625em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-family: 'Lato', sans-serif;
+}
+
+.instagram img{
+  padding: 20px;
+  padding-right: 10px;
+  max-width: 100%;
+}
+.instagram{
+  margin-right: 50px;
+}
 
 .footer{
-
+  text-align: center;
+  background-color: #ebebe0;
+  margin-bottom: -20px;
+  padding:20px;
+  font-size: .89em;
+  line-height: 10px;
+}
+.gold{
+  font-family: "Lato",sans-serif;
+  color: #b38600;
+  word-spacing: 7px;
+  font-size: .86em;
+  font-weight: bolder;
 }
 
 
