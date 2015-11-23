@@ -209,7 +209,7 @@ right:130px;
   width:50%;
 }
 .progress article{
-margin-top: 55px;
+margin-top:20px;
 float:left;
 width:20%;
 
@@ -222,6 +222,25 @@ width:20%;
  padding:10px 300px 50px 300px;
  font-family: 'Lato', sans-serif;
 }
+.email input{
+  max-width:100%;
+  text-align: none;
+}
+.email-text{
+  background-color: white;
+  color:gray;
+  padding:15px 200px 15px 30px;
+
+}
+.btn {
+display: inline-block;
+border: 0.125em solid white;
+padding: 15px 30px;
+text-decoration: none;
+color: white;
+background-color: #997300;
+}
+
 .instagram ul{
   list-style-type: none;
   padding:.625em;
