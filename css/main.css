@@ -127,12 +127,13 @@ right:130px;
 .nav-bar ul{
   list-style-type: none;
   padding:.625em 350px;
+  text-align: center;
 }
 .nav-bar li{
   font-weight: bold;
   font-size: 14px;
   display:inline;
-  padding-right: 1em;
+  padding-right: 60px;
   font-family: 'Lato', sans-serif;
 }
 .banner img{
@@ -150,10 +151,11 @@ right:130px;
 }
 .main-content h1{
   font-size: 20px;
-  word-spacing: 11px;
+  word-spacing: 4px;
   margin-top: 50px;
   margin-bottom:40px;
   font-family: 'Lato', sans-serif;
+  letter-spacing: 3px;
 
 }
 .recent-projects{
@@ -220,7 +222,11 @@ width:20%;
  color: white;
  text-align: center;
  padding:10px 300px 50px 300px;
- font-family: 'Lato', sans-serif;
+}
+.email h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 .email input{
   max-width:100%;
