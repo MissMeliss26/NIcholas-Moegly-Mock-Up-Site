@@ -112,10 +112,16 @@ body{
   margin:0 130px 100px 130px;
   z-index: -10;
 }
+.icons img{
+  margin-left: -80px;
+  width:2%;
+  margin-top: -50px;
+
+}
 .nav-bar{
  background-color: hsla(0,100%,100%, 0.88);
  color: black;
- padding: 2em;
+ padding: 2em 0;
  position: fixed;
  max-width:100%;
 left:130px;
@@ -125,20 +131,36 @@ right:130px;
 }
 .nav-bar ul{
   list-style-type: none;
-  padding:.625em 350px;
+  padding:.625em 200px;
   text-align: center;
   display: inline;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
 }
 .nav-bar li{
-  font-weight: bold;
-  font-size: 14px;
   display:inline;
-  padding-right: 60px;
-  font-family: 'Lato', sans-serif;
 }
 .nav-bar img{
   max-width: 9%;
 }
+.nav-bar a:link{
+  font-family: 'Lato', sans-serif;
+  padding-right: 100px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-bar a:visited{
+  color:black;
+}
+.nav-bar a:hover{
+  color:#b38600;
+}
+
+
 .banner img{
   max-width:100%;
 }
@@ -194,8 +216,7 @@ right:130px;
   overflow: auto;
 }
 .hub img{
-  width:100%;
-}
+  max-width:80%;
 }
 .progress ul{
   list-style-type: none;
@@ -214,15 +235,21 @@ right:130px;
 }
 .progress{
   float:right;
-  overflow: auto;
   border: 1px solid black;
   clear:right;
-  width:50%;
+  width:50%
 }
 .progress article{
+float:left;
 margin-top:20px;
 float:left;
-width:20%;
+max-width:5%;
+border: 1px solid black;
+
+}
+.progress img{
+  float: left;
+  overflow:auto;
 
 }
 .email{
