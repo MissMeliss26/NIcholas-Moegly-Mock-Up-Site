@@ -113,10 +113,12 @@ body{
   z-index: -10;
 }
 .icons img{
-  margin-left: -80px;
-  width:2%;
+  margin-left:-80px;
+  width:1.5%;
   margin-top: -50px;
-
+}
+.icons img:hover{
+  opacity:.4;
 }
 .nav-bar{
  background-color: hsla(0,100%,100%, 0.88);
@@ -159,8 +161,6 @@ right:130px;
 .nav-bar a:hover{
   color:#b38600;
 }
-
-
 .banner img{
   max-width:100%;
 }
@@ -190,68 +190,132 @@ right:130px;
   max-width: 100%;
 }
 .recent-projects{
-  padding:50px;
-  margin-top: -30px;
+  padding:70px 50px;
+  margin-top:-20px;
+}
+.recent-projects a{
+  color:#996600;
+  font-size: 14px;
+  text-decoration: none;
+}
+.recent-projects a:visited{
+  color:#996600;
+  font-size: 14px;
+}
+.recent-projects a:hover{
+  opacity:.7;
+}
+.projects{
+  font-family:"Lato", sans-serif;
+  font-size:20px;
+  letter-spacing: 4px;
 }
 .hub ul{
   list-style-type: none;
   padding:.625em;
   clear:right;
+  margin-top:-13px;
 }
 .hub li{
   font-weight: bold;
-  font-size: 14px;
   display: inline-block;
-  padding-right: .625em;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  font-family: 'Lato', sans-serif;
+  margin-right:87px;
+  overflow-x:hidden;
 }
 
 .hub{
-  border: 1px solid black;
-  width:50%;
+  width:48%;
   float:left;
   clear:left;
   overflow: auto;
+  font-size: 14px;
+  line-height:1.4em;
 }
-.hub img{
-  max-width:80%;
+.hub-img{
+  max-width:90%;
+}
+.hub p{
+  margin-bottom: 50px;
+}
+.graylines{
+  margin-bottom: 15px;
+  max-width:90%;
+}
+.graylines2{
+  max-width: 90%;
+  margin-top: -68px;
+  margin-bottom:-20px;
+}
+.graylines3{
+  max-width:90%;
+}
+.graylines4{
+margin-top: -65px;
+max-width:90%;
 }
 .progress ul{
   list-style-type: none;
+  margin-top:-12px;
   padding:.625em;
   clear:both;
 }
 .progress li{
   font-weight: bold;
-  font-size: 14px;
   display: inline-block;
-  padding-right: .625em;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  font-family: 'Lato', sans-serif;
-  clear:both;
+  margin-right: 87px;
+  overflow-x:hidden;
 }
 .progress{
   float:right;
-  border: 1px solid black;
   clear:right;
-  width:50%
+  width:50%;
+  display:block;
+  margin-top: -10px;
 }
 .progress article{
-float:left;
-margin-top:20px;
-float:left;
-max-width:5%;
-border: 1px solid black;
+  margin-top:20px;
+  display:block;
+  font-family: "Lato",sans-serif;
+  font-size: 13px;
+}
+#sink{
+  position:absolute;
+  top:138%;
+  left:48%;
+  text-align: center;
+}
+#sink img{
+  width:80%;
+}
+#go{
+  position:absolute;
+  top:138%;
+  left:66%;
+  text-align: center;
+}
+#go img{
+  width:80%;
+}
+#out{
+  position:absolute;
+  left:48%;
+  top:175%;
+  text-align: center;
+}
+#out img{
+  width:80%;
+}
+#elephant{
+  position:absolute;
+  top:175%;
+  left:66%;
+  text-align: center;
+}
+#elephant img{
+  width:80%;
 
 }
-.progress img{
-  float: left;
-  overflow:auto;
 
-}
 .email{
  clear:both;
  background-image:url(http://www.nicholasmoegly.com/wp-content/uploads/2015/09/Mailing-List-BG.jpg);
