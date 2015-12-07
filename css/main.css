@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*globals*/
 html{
     box-sizing: border-box;
     background-image:url(http://www.nicholasmoegly.com/wp-content/uploads/2015/09/BGV2.jpg);
@@ -108,6 +109,7 @@ body{
   width:82%;
   font-family: 'Average', serif;
 }
+/*header*/
 .page-header{
   margin:0 130px 100px 130px;
   z-index: -10;
@@ -163,6 +165,7 @@ body{
 .banner img{
   max-width:100%;
 }
+/*main content section*/
 .main-content{
   background-image:url(http://www.nicholasmoegly.com/wp-content/uploads/2015/10/Home-Intro-V21.jpg);
   margin-top:-10px;
@@ -188,6 +191,7 @@ body{
   margin-top: 30px;
   max-width: 100%;
 }
+/*projects section*/
 .recent-projects{
   padding:70px 50px;
   margin-top:-20px;
@@ -275,9 +279,11 @@ max-width:90%;
   margin-top: -10px;
 }
 .progress article{
-  display:block;
+  display:inline-block;
   font-family: "Lato",sans-serif;
   font-size: 13px;
+  text-align: center;
+
 }
 .products-thumb img{
   float:left;
@@ -293,9 +299,12 @@ max-width:90%;
 .products-thumb li{
   font-weight: bold;
   display: inline-block;
-  overflow-x:hidden;
+}
+.center-text{
+
 }
 
+/*email section*/
 .email{
  clear:both;
  background-image:url(http://www.nicholasmoegly.com/wp-content/uploads/2015/09/Mailing-List-BG.jpg);
@@ -319,7 +328,7 @@ max-width:90%;
 
 }
 .email img{
-  margin-top:-40px;
+margin-top:-40px;
 }
 .btn {
 display: inline-block;
@@ -329,38 +338,53 @@ text-decoration: none;
 color: white;
 background-color: hsla(0,100%,100%, 0);
 }
+/*instagram section*/
+.graylines5{
+  width:98.3%;
+  margin-left: 10px;
+  margin-bottom:-25px;
+}
+.graylines6{
+  width:100%;
 
+}
+.instagram{
+  padding:0px 20px 50px 50px;
+}
 .instagram ul{
   list-style-type: none;
-  padding:.625em;
-  clear:right;
+  padding:5px;
 
 }
 .instagram li{
-  font-weight: bold;
-  font-size: 14px;
   display: inline-block;
-  padding-right: .625em;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  padding-right: 33.5%;
+  margin-left: 15px;
+}
+.instagram-heading{
   font-family: 'Lato', sans-serif;
+  letter-spacing: 4px;
+  font-size:20px;
 }
-
+.instagram a{
+  font-family: 'Average', serif;
+  font-size:14px;
+  letter-spacing: 0px;
+  color: #b38600;
+}
+.instagram a:visited{
+  color:#b38600;
+}
+.instagram a:hover{
+  opacity:.4;
+}
 .instagram img{
-  padding: 20px;
-  padding-right: 10px;
+  padding: 20px 10px;
   max-width: 100%;
-  display:inline;
-  text-align: center;
-}
-.intragram-images{
-display:inline-block;
-text-align: center;
-}
-.instagram{
-  margin-right: 50px;
 }
 
+
+/*footer section*/
 .footer{
   text-align: center;
   background-color:#dddddd;
