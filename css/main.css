@@ -277,31 +277,20 @@ max-width:90%;
   width:50%;
   display:block;
   margin-top: -10px;
-}
-.progress article{
-  display:inline-block;
-  font-family: "Lato",sans-serif;
-  font-size: 13px;
 
 }
-.products-thumb img{
-  width:85%;
+.products-thumb {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
-.products-thumb{
-  float:left;
-  overflow:auto;
-  display:block;
-  text-align: center;
-  font-weight: bold;
-}
-.products-thumb ul{
-  list-style-type: none;
-  clear:both;
-}
-.products-thumb li{
-  font-weight: bold;
-  display: inline-block;
-}
+.products-thumb img {
+    max-width: 98%;
+  }
 
 /*email section*/
 .email{
